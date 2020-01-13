@@ -77,5 +77,11 @@ a {
 }
 
 a:hover {
-  color: dodgerblue;
+  color: #003366;
+}
+
+.activeNavLink {
+  background-color: #3399FF;
+  color: white;
+  border: 1px solid darkslategrey;
 }
