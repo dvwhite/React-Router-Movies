@@ -76,12 +76,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #003366;
-}
-
 .activeNavLink {
-  background-color: #3399FF;
+  background-color: #2A58A1;
   color: white;
   border: 1px solid darkslategrey;
 }

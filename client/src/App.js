@@ -10,7 +10,10 @@ const App = () => {
   const [savedList, setSavedList] = useState( [] );
 
   const addToSavedList = movie => {
-    setSavedList( [...savedList, movie] );
+    const savedMovieIDs = savedList.map(savedMovie => savedMovie.id);
+    if (!savedMovieIDs.includes(movie.id)) {
+      setSavedList([...savedList, movie]);
+    }
   };
 
   return (
